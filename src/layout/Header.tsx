@@ -1,4 +1,5 @@
 import { MouseEvent, useState } from "react";
+import GetButon from "../atom/GetButon";
 
 
 export default function Header() {
@@ -29,6 +30,8 @@ if (mobileImg=="/src/assets/icon-hamburger.svg") {
 
 {/* ombre pour mobile */}
 <div className="ombre" id={visibility}  ></div>
+
+
 <nav id={visibility}>
   <a href="#">Pricing</a>
   <a href="#">Product</a>
@@ -38,7 +41,7 @@ if (mobileImg=="/src/assets/icon-hamburger.svg") {
 </nav>
 
 
-<button type="button">Get Started</button>
+ <GetButon decoration="heanderBtn"/>
   </header>
   
     )
