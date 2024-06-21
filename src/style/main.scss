@@ -1,22 +1,45 @@
-@media screen and (min-width:769px) and (max-width: $Desktop) {
-   
-main{
- width: 100vw;
- height: 200vh;
-//  border: 3px rgb(241, 28, 28) solid;
-}
+@media screen and (min-width: 769px) and (max-width: $Desktop) {
+  main {
+    width: 100vw;
+    height: 200vh;
+    //  border: 3px rgb(241, 28, 28) solid;
+  }
 
-.everyone{
- width: 100vw;
-    height: 65vh;
+  .everyone {
+    width: 100vw;
+    height: 85vh;
     border: 3px black solid;
-}
+    display: flex;
+    flex-direction: row;
+  }
 
-.everyone .left{
+  .everyone .left {
     width: 50vw;
-    height: 100%;
-}
-.everyoneBtn {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .everyone .left h1 {
+    color: $darK_Blue;
+    font-weight: 700;
+    font-size: min(2.5rem, 3vw);
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 55%;
+  }
+
+  .everyone .left p {
+    color: $dark_Grayish_Blue;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 55%;
+    line-height: 25px;
+  }
+
+  .everyoneBtn {
     width: 150px;
     height: 45px;
     border-radius: 25px;
@@ -26,50 +49,202 @@ main{
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 400;
     transition: all 500ms ease-in-out;
+    margin-left: -17vw;
     cursor: pointer;
   }
 
+  .everyoneBtn:hover {
+    box-shadow: 9px 11px 20px hsl(12, 88%, 59%);
+    opacity: 0.9;
+  }
 
-.everyone .right{
+  .everyone .right {
     width: 50vw;
     height: 100%;
+    // z-index: 9;
+    position: relative;
+  }
 
+  .everyone .right img:nth-child(1) {
+    position: absolute;
+    top: 12%;
+    left: 26%;
+    width: 349px;
+    height: 305px;
+    z-index: -6;
+    transform: scale(1, 2) rotate(12deg);
+  }
+
+  .everyone .right img:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
 }
 
-
-
-
-
+@media screen and (min-width: 426px) and (max-width: $Tablet) {
+  main {
+    width: 100vw;
+    height: 200vh;
+    //  border: 3px rgb(241, 28, 28) solid;
   }
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media screen and (min-width:426px) and (max-width: $Tablet)  {
-     
-  
+  .everyone {
+    width: 100vw;
+    height: 85vh;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: row;
   }
-  
-  
-  
-  @media screen and (max-width:$Mobile){
-     
-  
+
+  .everyone .left {
+    width: 50vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
-  
+
+  .everyone .left h1 {
+    color: $darK_Blue;
+    font-weight: 700;
+    font-size: min(2.5rem, 3vw);
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 55%;
+  }
+
+  .everyone .left p {
+    color: $dark_Grayish_Blue;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 55%;
+    line-height: 25px;
+  }
+
+  .everyoneBtn {
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: $right_Red;
+    border: none;
+    color: $very_Light_Gray;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    transition: all 500ms ease-in-out;
+    margin-left: -17vw;
+    cursor: pointer;
+  }
+
+  .everyoneBtn:hover {
+    box-shadow: 9px 11px 20px hsl(12, 88%, 59%);
+    opacity: 0.9;
+  }
+
+  .everyone .right {
+    width: 50vw;
+    height: 100%;
+    // z-index: 9;
+    position: relative;
+  }
+
+  .everyone .right img:nth-child(1) {
+    position: absolute;
+    top: 12%;
+    left: 26%;
+    width: 349px;
+    height: 305px;
+    z-index: -6;
+    transform: scale(1, 2) rotate(12deg);
+  }
+
+  .everyone .right img:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+}
+
+@media screen and (max-width: $Mobile) {
+  main {
+    width: 100vw;
+    height: 200vh;
+    //  border: 3px rgb(241, 28, 28) solid;
+  }
+
+  .everyone {
+    width: 100vw;
+    height: 85vh;
+    border: 3px black solid;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .everyone .left {
+    width: 50vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .everyone .left h1 {
+    color: $darK_Blue;
+    font-weight: 700;
+    font-size: min(2.5rem, 3vw);
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 55%;
+  }
+
+  .everyone .left p {
+    color: $dark_Grayish_Blue;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+    width: 55%;
+    line-height: 25px;
+  }
+
+  .everyoneBtn {
+    width: 150px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: $right_Red;
+    border: none;
+    color: $very_Light_Gray;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    transition: all 500ms ease-in-out;
+    margin-left: -17vw;
+    cursor: pointer;
+  }
+
+  .everyoneBtn:hover {
+    box-shadow: 9px 11px 20px hsl(12, 88%, 59%);
+    opacity: 0.9;
+  }
+
+  .everyone .right {
+    width: 50vw;
+    height: 100%;
+    // z-index: 9;
+  }
+
+  .everyone .right img:nth-child(1) {
+    position: absolute;
+    top: 0%;
+    left: 60vw;
+    width: 349px;
+    height: 305px;
+    z-index: -6;
+    transform: scale(1, 2) translate(-2px, 33px) rotate(8deg);
+  }
+
+  .everyone .right img:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+}
