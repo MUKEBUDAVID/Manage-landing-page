@@ -23,9 +23,11 @@ if (mobileImg=="/src/assets/icon-hamburger.svg") {
 
   return (
   <header>
-<img src="/src/assets/logo.svg" alt="logo du site web"  className="logo" title="logo du site web" />
 
- {/* hamburger */}
+<div className="centre">
+    <img src="/src/assets/logo.svg" alt="logo du site web"  className="logo" title="logo du site web" />
+
+{/* hamburger */}
 <img onClick={handleclick} src={mobileImg} alt="menu hamburger" className="menu_hamburger"  />
 
 {/* ombre pour mobile */}
@@ -33,15 +35,17 @@ if (mobileImg=="/src/assets/icon-hamburger.svg") {
 
 
 <nav id={visibility}>
-  <a href="#">Pricing</a>
-  <a href="#">Product</a>
-  <a href="#">About Us</a>
-  <a href="#">Careers</a>
-  <a href="#">Community</a>
+ <a href="#">Pricing</a>
+ <a href="#">Product</a>
+ <a href="#">About Us</a>
+ <a href="#">Careers</a>
+ <a href="#">Community</a>
 </nav>
 
 
- <GetButon decoration="heanderBtn"/>
+<GetButon decoration="heanderBtn"/>
+
+    </div>
   </header>
   
     )
