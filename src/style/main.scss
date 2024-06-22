@@ -91,6 +91,38 @@
 
   }
 
+.manage{
+  width: 100vw;
+  height: 85vh;
+  border: 3px black solid;
+  display: flex;
+  flex-direction: row;
+
+.left{
+  width: 50%;
+  height: 100%;
+  padding-left: 120px;
+}
+.left h2{
+  color: $darK_Blue;
+  font-weight: 700;
+  font-size: min(2.5rem, 2vw);
+  font-family: "Be Vietnam Pro", sans-serif;
+  width:100% ;
+  }
+
+.left p{
+  color: $dark_Grayish_Blue;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 105%;
+  line-height: 25px;
+}
+
+
+}
+
  
 }
 
