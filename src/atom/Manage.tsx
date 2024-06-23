@@ -15,6 +15,7 @@ export default function Manage() {
           teams.
         </p>
       </div>
+      
 
       
         <ul className="right">
