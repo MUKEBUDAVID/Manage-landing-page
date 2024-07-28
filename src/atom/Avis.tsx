@@ -1,8 +1,51 @@
-// import React from 'react'
-
+import { useEffect,useState} from "react";
+import BtnRadio from "./BtnRadio";
 import GetButon from "./GetButon";
+import { motion } from "framer-motion";
 
 export default function Avis() {
+const[elementVue,setelementVue]=useState({element:0,vue:0});
+
+// for animation scroll X
+useEffect(()=>{
+
+const timer = setInterval(() => {
+  
+
+if(elementVue.element===3){
+  const temp={...elementVue}
+  temp.element=0;
+  temp.vue=0
+  setelementVue({...temp});
+} else{
+  const temp={...elementVue};
+
+  
+  
+  
+  temp.element+=1 ;
+   temp.vue+=100;
+   
+ 
+  
+  setelementVue({...temp})
+  console.log(elementVue);
+}
+ 
+
+
+   }, 2000);
+
+ 
+return () => {
+    // setelementVue(0)
+    clearInterval(timer);
+  } 
+
+})
+
+
+
 
 
 
@@ -13,14 +56,9 @@ export default function Avis() {
       <h2 className="titre">  What they’ve said</h2>
 
 
-
-
-
-
 <div className="scroll">
 
-
-<ul  >
+<motion.ul  animate={{x: -elementVue.vue+"vw" }} >
 
     
         <li>
@@ -83,11 +121,14 @@ from anywhere. It keeps the whole team in-sync without being intrusive.”
         </li>
 
 
-        </ul>
+        </motion.ul>
 
 
 
     </div> 
+     
+
+  <BtnRadio decoration="btnRadio" element={elementVue.element} />
 
 
   <GetButon decoration="avisBtn"/>        
