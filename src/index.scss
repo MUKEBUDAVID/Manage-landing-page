@@ -28,7 +28,18 @@ body {
     body {
         box-sizing: border-box;
         overflow-x: hidden;
-        height: 1000vh;
+        height: 570vh;
+        
+    }  
+}
+
+
+@media screen and (min-width: 426px) and (max-width: $Tablet) {
+
+    body {
+        box-sizing: border-box;
+        overflow-x: hidden;
+        height: 420vh;
         
     }  
 }

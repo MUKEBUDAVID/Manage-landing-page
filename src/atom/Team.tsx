@@ -1,4 +1,5 @@
-import React from 'react';
+import GetButon from "./GetButon";
+
 
 export default function Team() {
   return (
@@ -8,6 +9,8 @@ export default function Team() {
      
         </p>  
      <img src="/src/assets/bg-simplify-section-desktop.svg" alt="background"  /> 
+
+<GetButon decoration="teamBtn"/>
 
     
                 </section>

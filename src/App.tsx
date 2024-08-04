@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import "./App.scss";
+import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import Main from "./layout/Main";
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
   <Header/>
   <Main/>
+  <Footer/>
 
 
 </>
