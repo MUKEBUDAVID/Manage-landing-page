@@ -1,45 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "/src/style/variable.scss";
 
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-
-a
-html {
-     /* 10px div by def of 16px */
-    font-size: 62.5%;
-    overflow-x: hidden;
+a html {
+  /* 10px div by def of 16px */
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
-    box-sizing: border-box;
-    overflow-x: hidden;
-    height: 360vh;
-    
+  box-sizing: border-box;
+  overflow-x: hidden;
+  height: 360vh;
+ 
 }
 @media screen and (max-width: $Mobile) {
+  body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 570vh;
 
-    body {
-        box-sizing: border-box;
-        overflow-x: hidden;
-        height: 570vh;
-        
-    }  
+  
+  }
 }
 
-
 @media screen and (min-width: 426px) and (max-width: $Tablet) {
+  body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 420vh;
 
-    body {
-        box-sizing: border-box;
-        overflow-x: hidden;
-        height: 420vh;
-        
-    }  
+    
+  }
 }

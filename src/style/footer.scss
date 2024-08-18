@@ -1,0 +1,383 @@
+@media screen and (min-width: 769px) and (max-width: $Desktop) {
+    footer {
+      width: 100vw;
+      height: 320px;
+      background-color: $very_Dark_Blue;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+
+     .contact{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 200px;
+      width: 25%;
+      
+     }
+     
+     .logo{
+      width: 50%;
+      fill: white;
+
+     }
+
+     .sociaux{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 50%;
+     }
+     .sociaux a img:hover{
+      cursor: pointer;
+      fill:$right_Red ;
+      filter: invert(43%) sepia(66%) saturate(2132%) hue-rotate(340deg) brightness(101%) contrast(90%);
+     }
+
+     .navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 35%;
+        height: 200px;
+ }
+
+
+ .navigation nav:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: wheat;
+  width: 50%;
+  height: 50%;
+}
+
+
+.navigation nav:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: wheat;
+  width: 50%;
+  height: 40%;
+  // background-color: aqua;
+  margin-bottom: 35px;
+
+
+ }
+
+ .navigation nav a{
+  color: $very_Pale_Red;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  transition: all ease-in-out 200ms;
+
+ }
+ .navigation nav a:hover{
+  cursor: pointer;
+  color: $right_Red;
+
+ }
+
+ .newslater{
+  width: 25%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+ }
+
+
+ .newslater form{
+  width: 90%;
+  height: 70%;
+  // background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .newslater form input{
+  width: 70%;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px solid transparent;
+  padding-left: 20px;
+ }
+
+ .newslater form input:invalid{
+  color:$right_Red;
+  border: 2px solid $right_Red;
+  
+ }
+
+ .newslater form button{
+  width: 25%;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px solid transparent;
+  background: $right_Red;
+  color:$very_Pale_Red;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+ }
+
+ .newslater form button:hover{
+ 
+  background:$very_Pale_Red ;
+  color: $right_Red 
+}
+
+
+ .newslater p{
+  color:$dark_Grayish_Blue;
+  }
+  .newslater span{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    color:$right_Red ;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        top: 367vh;
+        left: 35vw;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+
+    }
+  }
+  
+  @media screen and (min-width: 426px) and (max-width: $Tablet) {
+ footer {
+      width: 100vw;
+      height: 320px;
+      background-color: $very_Dark_Blue;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+
+     .contact{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 200px;
+      width: 25%;
+      
+     }
+     
+     .logo{
+      width: 50%;
+      fill: white;
+
+     }
+
+     .sociaux{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70%;
+     }
+     .sociaux a img:hover{
+      cursor: pointer;
+      fill:$right_Red ;
+      filter: invert(43%) sepia(66%) saturate(2132%) hue-rotate(340deg) brightness(101%) contrast(90%);
+     }
+
+     .navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        width: 40%;
+        height: 200px;
+        
+ }
+
+
+ .navigation nav:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: wheat;
+  width: 50%;
+  height: 50%;
+}
+
+
+.navigation nav:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: wheat;
+  width: 50%;
+  height: 40%;
+  // background-color: aqua;
+  margin-bottom: 35px;
+
+
+ }
+
+ .navigation nav a{
+  color: $very_Pale_Red;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  transition: all ease-in-out 200ms;
+
+ }
+ .navigation nav a:hover{
+  cursor: pointer;
+  color: $right_Red;
+
+ }
+
+ .newslater{
+  width: 25%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  
+ }
+
+
+ .newslater form{
+  width: 90%;
+  height: 70%;
+  // background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .newslater form input{
+  width: 70%;
+  height: 40px;
+  border-radius: 50px;
+  border: 0px solid transparent;
+  font-size: 10px;
+  // padding-left: 20px;
+ }
+
+ .newslater form input:invalid{
+  color:$right_Red;
+  border: 2px solid $right_Red;
+  
+ }
+
+ .newslater form button{
+  width: 25%;
+  height: 30px;
+  border-radius: 50px;
+  border: 0px solid transparent;
+  background: $right_Red;
+  color:$very_Pale_Red;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+ }
+
+ .newslater form button:hover{
+ 
+  background:$very_Pale_Red ;
+  color: $right_Red 
+}
+
+
+ .newslater p{
+  color:$dark_Grayish_Blue;
+  font-size: 10px;
+  }
+  .newslater span{
+    position: absolute;
+    top: 22%;
+    left: 3%;
+    color:$right_Red ;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        top:437vh;;
+        left: 35vw;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+
+    }
+  
+   
+    }
+
+
+  
+  @media screen and (max-width: $Mobile) {
+    footer {
+      width: 100vw;
+      height: 490px;
+       border: 3px rgb(241, 28, 28) solid;
+      
+    }
+  
+   
+   
+  }
+  
