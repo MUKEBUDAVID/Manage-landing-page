@@ -113,7 +113,7 @@ if (inputValue!=="") {
 
 
 <div className="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=manage-landing-page-SLXqC6P5" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">David Mukebu</a>.
   </div>
 
