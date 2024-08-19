@@ -14,7 +14,16 @@ export default function Footer() {
     const value = e.target.value;
    setInputValue(value);
 
-   inputValue===""?setError(""):null
+      if (inputValue=="") {
+         console.log("befor");
+         
+        setError("")       
+        
+        console.log("after");
+        
+      }
+
+
 
    
 
@@ -30,9 +39,9 @@ const  handleSubmitEmail=(e:FormEvent)=>{
 if (inputValue!=="") {
   
   if (!isEmailValid(inputValue)) {
-    setError('please insert a valid email');
+    setError("please insert a valid email");
   }else{
-    setError('');
+    setError("");
   }
   
 }

@@ -370,11 +370,202 @@
 
   
   @media screen and (max-width: $Mobile) {
-    footer {
+  
+footer {
       width: 100vw;
       height: 490px;
-       border: 3px rgb(241, 28, 28) solid;
+      background-color: $very_Dark_Blue;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: -11px;
+
+
+     .contact{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      height: 110px;
+      width: 100%;
+      // backgr ound-color: aquamarine;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
       
+     }
+     
+     .logo{
+      width: 173px;
+      height: 35px;
+      fill: white;
+
+     }
+
+     .sociaux{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70%;
+     }
+     .sociaux a img:hover{
+      cursor: pointer;
+      fill:$right_Red ;
+      filter: invert(43%) sepia(66%) saturate(2132%) hue-rotate(340deg) brightness(101%) contrast(90%);
+     }
+
+     .navigation{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 150px;
+        // background:magenta;
+        
+ }
+
+
+ .navigation nav:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: wheat;
+  height: 78%;
+}
+
+
+.navigation nav:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: wheat;
+  height: 70%;
+  // background-color: aqua;
+  margin-bottom: 35px;
+
+
+ }
+
+ .navigation nav a{
+  color: $very_Pale_Red;
+  text-decoration: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  transition: all ease-in-out 200ms;
+
+ }
+ .navigation nav a:hover{
+  cursor: pointer;
+  color: $right_Red;
+
+ }
+
+ .newslater{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  // background-color: aquamarine;
+  
+ }
+
+
+ .newslater form{
+  width: 90%;
+  height: 20%;
+  // background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+ }
+ .newslater form input{
+  width: 70%;
+  height: 40px;
+  border-radius: 50px;
+  border: 0px solid transparent;
+  font-size: 10px;
+  padding-left: 20px;
+ }
+
+ .newslater form input:invalid{
+  color:$right_Red;
+  border: 2px solid $right_Red;
+  
+ }
+
+ .newslater form button{
+  width: 25%;
+  height: 30px;
+  border-radius: 50px;
+  border: 0px solid transparent;
+  background: $right_Red;
+  color:$very_Pale_Red;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+ }
+
+ .newslater form button:hover{
+ 
+  background:$very_Pale_Red ;
+  color: $right_Red 
+}
+
+
+ .newslater p{
+  color:$dark_Grayish_Blue;
+  font-size: 10px;
+  position: absolute;
+  top: 447%;
+  left: 28%;
+  }
+  .newslater span{
+    position: absolute;
+    top: 204%;
+    left: 3%;
+    color:$right_Red ;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        top: 587vh;
+        left: 21vw;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+
     }
   
    
