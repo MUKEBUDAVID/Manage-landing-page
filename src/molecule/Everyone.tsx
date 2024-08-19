@@ -1,6 +1,6 @@
 // import React from 'react';
-import illustration1 from "../assets/bg-tablet-pattern.svg";
-import illustration2 from "../assets/illustration-intro.svg";
+import illustration1 from "/assets/bg-tablet-pattern.svg";
+import illustration2 from "/assets/illustration-intro.svg";
 
 import GetButon from "../atom/GetButon";
 

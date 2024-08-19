@@ -8,7 +8,7 @@ export default function Team() {
      Simplify how your team <br /> works today.
      
         </p>  
-     <img src="/src/assets/bg-simplify-section-desktop.svg" alt="background"  /> 
+     <img src="assets/bg-simplify-section-desktop.svg" alt="background"  /> 
 
 <GetButon decoration="teamBtn"/>
 

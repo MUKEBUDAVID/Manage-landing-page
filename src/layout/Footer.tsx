@@ -63,14 +63,14 @@ if (inputValue!=="") {
     <footer>
 
         <section className="contact">
-          <img src="/src/assets/logoFooter.svg" alt="logo" className="logo" />
+          <img src="assets/logoFooter.svg" alt="logo" className="logo" />
           
           <div className="sociaux"  >
- <a href="#"><img src="/src/assets/icon-facebook.svg" alt="icon-facebook"/></a>
- <a href="#"><img src="/src/assets/icon-youtube.svg" alt="icon-youtube" /></a>
- <a href="#"><img src="/src/assets/icon-twitter.svg" alt="icon-twitter"/></a>
- <a href="#"><img src="/src/assets/icon-pinterest.svg" alt="icon-pinterest" /></a>
- <a href="#"><img src="/src/assets/icon-instagram.svg" alt="icon-instagram.svg" /></a>
+ <a href="#"><img src="assets/icon-facebook.svg" alt="icon-facebook"/></a>
+ <a href="#"><img src="assets/icon-youtube.svg" alt="icon-youtube" /></a>
+ <a href="#"><img src="assets/icon-twitter.svg" alt="icon-twitter"/></a>
+ <a href="#"><img src="assets/icon-pinterest.svg" alt="icon-pinterest" /></a>
+ <a href="#"><img src="assets/icon-instagram.svg" alt="icon-instagram.svg" /></a>
 </div>
         </section>
         

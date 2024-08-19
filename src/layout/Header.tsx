@@ -3,18 +3,18 @@ import GetButon from "../atom/GetButon";
 
 
 export default function Header() {
-const [mobileImg,setmobileImg]=useState("/src/assets/icon-hamburger.svg");
+const [mobileImg,setmobileImg]=useState("assets/icon-hamburger.svg");
 const [visibility,setvisibility]=useState("invisible");
 
 const handleclick=(e:MouseEvent)=>{
  e.preventDefault;
  e.stopPropagation;
 
-if (mobileImg=="/src/assets/icon-hamburger.svg") {
-  setmobileImg("/src/assets/icon-close.svg")  
+if (mobileImg=="assets/icon-hamburger.svg") {
+  setmobileImg("assets/icon-close.svg")  
   setvisibility("visible")
 }else{
-  setmobileImg("/src/assets/icon-hamburger.svg")
+  setmobileImg("assets/icon-hamburger.svg")
   setvisibility("invisible")
 } 
 
@@ -25,7 +25,7 @@ if (mobileImg=="/src/assets/icon-hamburger.svg") {
   <header>
 
 <div className="centre">
-    <img src="/src/assets/logo.svg" alt="logo du site web"  className="logo" title="logo du site web" />
+    <img src="assets/logo.svg" alt="logo du site web"  className="logo" title="logo du site web" />
 
 {/* hamburger */}
 <img onClick={handleclick} src={mobileImg} alt="menu hamburger" className="menu_hamburger"  />

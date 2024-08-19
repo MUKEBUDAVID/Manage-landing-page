@@ -54,7 +54,7 @@ return () => {
 
     
         <li>
-            <img src="/src/assets/avatar-anisha.png" alt="avatar"  className="avatar" />
+            <img src="assets/avatar-anisha.png" alt="avatar"  className="avatar" />
             <br />
             <p className="nom">Anisha Li</p>
 
@@ -73,7 +73,7 @@ return () => {
 
 
         <li>
-            <img src="/src/assets/avatar-ali.png" alt="avatar"  className="avatar" />
+            <img src="assets/avatar-ali.png" alt="avatar"  className="avatar" />
             <br />
             <p className="nom">Ali Bravo</p>
             <br/>
@@ -90,7 +90,7 @@ more focused.”
 
 
         <li>
-            <img src="/src/assets/avatar-richard.png" alt="avatar"  className="avatar" />
+            <img src="assets/avatar-richard.png" alt="avatar"  className="avatar" />
             <br />
             <p className="nom">Richard Watts</p>
             <br/>
@@ -107,7 +107,7 @@ and focused. I can’t stop recommending them to everyone I talk to!”
         
 
         <li>
-            <img src="/src/assets/avatar-shanai.png" alt="avatar"  className="avatar" />
+            <img src="assets/avatar-shanai.png" alt="avatar"  className="avatar" />
             <br />
             <p className="nom">Shanai Gough</p>
             <br/>
